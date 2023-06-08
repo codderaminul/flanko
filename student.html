@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="files/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.9.0/dist/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/fontawesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Spanish Library | Flangoo</title>
+</head>
+<body>
+    <div class="body common-bg">
+        <div class="header bg-dark d-flex justify-content-between pt-3 pb-3 px-3">
+            <div class="d-flex align-items-center justify-content-between">
+                <h6 class="pe-5 p-0">Fligo</h6>
+                <a class="px-2 text-white text-decoration-none">Spanish Library</a>
+                <a class="px-2 text-white text-decoration-none">Spanish Library</a>
+                <a class="px-2 text-white text-decoration-none">Spanish Library</a>
+                <a class="px-2 text-white text-decoration-none">Spanish Library</a>
+                <a class="px-2 text-white text-decoration-none">Spanish Library</a>
+            </div>
+            <div class="d-flex align-items-center">
+                <div class="me-4 align-items-center">
+                    <i class="fa-solid fa-download me-3"></i>
+                    <i class="fa-solid fa-user"></i>
+                    <span>Toufic Ahammed</span>
+                </div>
+                <i class="fa-solid fa-bell"></i>
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="section1 d-flex justify-content-end py-3">
+                <button class="me-2 btn text-white radius"><i class="fa-solid fa-download me-1 fw-bold"></i>Download List</button>
+                <button type="button" class="me-2 btn btn-success radius"> Add Class Group </button>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle radius" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Add Students 
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Have Students Sign Up</a></li>
+                        <li><a class="dropdown-item" href="#">Add Students Manually</a></li>
+                    </ul>
+                    </div>
+            </div>
+            <div class="section2 row">
+                <h1>Manage Students</h1>
+                <p>Give your students access here. You have added 0 out of 180 student accounts</p>
+                <div class="w-25 col-6 see-all">
+                    <select class="form-select">
+                        <option class="" selected>-See All</option>
+                    </select>
+                </div>
+                <div class="col-sm-4 col-lg-3">
+                    <button class="btn btn-outline-light radius mt-sm-3 mt-md-0" id="datepicker">Jun 5 - Jun 11<i class="fa-solid fa-solid fa-calendar"></i></button>
+                </div>
+                <div class="dropdown col ">
+                    <button class="btn btn-danger dropdown-toggle radius float-lg-end float-sm-start mt-sm-3 mt-lg-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                     Transfer and Delete Student
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item bg-gray" href="#"><i class="fa-solid fa-user me-2"></i>Transfer Students</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-users me-2"></i>select Students to Transfer</a></li>
+                      <li><a class="dropdown-item bg-gray" href="#"><i class="fa-solid fa-user-slash me-2"></i>Remove Students</a></li>
+                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-users me-2"></i>Select Students to Delete</a></li>
+                    </ul>
+                  </div>
+            </div>
+            <div class="section3 text-center mt-5">
+                <h1 class="text-secondary display-1"><i class="fa-solid fa-users"></i></h1>
+                <h3>No Students</h3>
+                <!-- Button trigger modal -->
+                <button type="button" class="mt-3 mb-5 btn btn-danger radius" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Add a Student
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content text-dark">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">First you need to add a Class</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            <input class="form-control" type="text" name="" id="" placeholder="Class Period">
+                            </div>
+                            <div class="modal-footer">
+                            
+                            <button type="button" class="btn btn-primary w-100 radius bg-success">Save Class</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer common-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-7">
+                    <nav class="foot-menu">
+                        <a class="text-decoration-none me-2" href="">FAQ</a>
+                        <a class="text-decoration-none me-2" href="">Privacy Policy</a>
+                        <a class="text-decoration-none me-2" href="">Refund Policy</a>
+                        <a class="text-decoration-none me-2" href="">Refer & Friend</a>
+                        <a class="text-decoration-none me-1" href="">Become an Author</a>
+                        <i class="fa-solid fa-pen-clip mt-1"></i>
+                    </nav>
+                    <p>Copyright © 2005-2023 Teacher's Discovery®, a division of American Eagle Co., Inc. All Rights Reserved.</p>
+                </div>
+                <div class="facebook col-sm-6 col-lg-3 mt-sm-0 mt-lg-5 ">
+                    <img class="float-end w-50 mt-4 rounded" src="files/facebook_nav.webp" alt="">
+                </div>
+                <div class="apple col-sm-6 col-lg-2 mt-sm-0 mt-lg-5 ">
+                    <img class="float-end w-100" src="files/td-logo.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="common-bg">
+        <div class="position-fixed bottom-0 start-0 h2 man">
+            <i class="fa-solid fa-person ms-5 mb-2"></i>
+        </div>
+        <div class="position-fixed bottom-0 end-0 h3 message">
+            <i class="fa-regular fa-message me-5 mb-2"></i>
+        </div>        
+    </div>
+
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/fontawesome.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.9.0/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+  
+  
+
+<!-- <i class="fa fa-download" aria-hidden="true"></i> -->
