@@ -29,8 +29,10 @@
   
     $(document).ready(function() {
         $('.pre-level').slick({
-        infinite: false,
-        slidesToShow: 5,
-        slidesToScroll: 5,
+          infinite: false,
+          slidesToShow: 5,
+          slidesToScroll: 5,
+          prevArrow: null, 
+          nextArrow: null,
         });
     });

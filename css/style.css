@@ -46,11 +46,12 @@
 }
 .box{
     height: 25px;
-    width: 25px;
+    width: 35px !important;
     border: 2px solid #fff;
+    border-radius: 3px;
 }
-.box-content{
-    max-width: 260px;
+box-content{
+    width: 260px !important;
 }
 .pre-level img{
     height: 190px;
@@ -79,4 +80,5 @@
 }
 .level-content{
     background: linear-gradient(90deg, rgb(68, 68, 70) 0%, rgb(13, 13, 14) 35%, rgb(116, 117, 117) 100%);
+    opacity: 0.9;
 }
