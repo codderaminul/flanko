@@ -27,3 +27,10 @@
       return monthNames[monthIndex] + ' ' + day;
     }
   
+    $(document).ready(function() {
+        $('.pre-level').slick({
+        infinite: false,
+        slidesToShow: 5,
+        slidesToScroll: 5,
+        });
+    });

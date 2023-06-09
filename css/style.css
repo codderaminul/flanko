@@ -52,3 +52,31 @@
 .box-content{
     max-width: 260px;
 }
+.pre-level img{
+    height: 190px;
+    width: 250px;
+    margin-right: 10px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.pre-level img:hover{
+    height: 200px;
+    width: 260px;
+    margin-left: -5px;
+    margin-right: 20px;
+    overflow: hidden;
+    transition: 1s;
+}
+.fs-10{
+    font-size: 13px;
+}
+.level_details{
+    background-image: url(../files/1196.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 999;
+}
+.level-content{
+    background: linear-gradient(90deg, rgb(68, 68, 70) 0%, rgb(13, 13, 14) 35%, rgb(116, 117, 117) 100%);
+}
